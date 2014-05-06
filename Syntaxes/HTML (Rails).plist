@@ -4,19 +4,18 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>rhtml</string>
 		<string>erb</string>
 		<string>html.erb</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)
-		(&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)\b.*?&gt;
+		(&lt;(?i:a|article|aside|audio|blockquote|body|canvas|datalist|details|div|dl|fieldset|figcaption|figure|footer|form|head|header|hgroup|li|mark|menu|meter|nav|ol|output|p|progress|rp|rt|ruby|script|section|select|small|style|summary|table|tbody|tfoot|thead|tr|ul|video|data)\b.*?&gt;
 		|&lt;!--(?!.*--&gt;)
 		|\{\s*($|\?&gt;\s*$|//|/\*(.*\*/\s*$|(?!.*?\*/)))
 		)</string>
 	<key>foldingStopMarker</key>
 	<string>(?x)
-		(&lt;/(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)&gt;
+		(&lt;/(?i:a|article|aside|audio|blockquote|body|canvas|datalist|details|div|dl|fieldset|figcaption|figure|footer|form|head|header|hgroup|li|mark|menu|meter|nav|ol|output|p|progress|rp|rt|ruby|script|section|select|small|style|summary|table|tbody|tfoot|thead|tr|ul|video|data)&gt;
 		|^\s*--&gt;
 		|(^|\s)\}
 		)</string>
